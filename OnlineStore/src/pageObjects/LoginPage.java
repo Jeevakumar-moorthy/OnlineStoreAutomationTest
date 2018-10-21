@@ -4,7 +4,7 @@ import org.openqa.selenium.*;
 
 
 public class LoginPage {
-
+   private static int k=0;
 	private static WebElement element=null;
 	 public static WebElement txtbx_UserName(WebDriver driver){
 		 
